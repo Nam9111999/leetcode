@@ -51,7 +51,7 @@ public:
         return firstNElements;
     }
 
-    vector<vector<int>> kClosest(vector<vector<int>> &p, int k)
+    vector<vector<int>> kClosest2(vector<vector<int>> &p, int k)
     {
 
         priority_queue<pair<int, int>> pq;
